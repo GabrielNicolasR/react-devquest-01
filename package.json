@@ -1,10 +1,10 @@
 {
+  "homepage": "https://gabrielnicolasr.github.io/react-devquest-01/",
   "name": "quest-react-basico-01",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "homepage": "https://gabrielnicolasr.github.io/react-devquest-01/",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
