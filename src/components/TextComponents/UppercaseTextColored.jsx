@@ -1,4 +1,4 @@
-import '../components/UppercaseText.css'
+import '../TextComponents/UppercaseText.css'
 
 const TextFormatter = (textColor) => {
     return (
@@ -10,10 +10,6 @@ const TextFormatter = (textColor) => {
             </p>
         </div>
     )
-}
-
-TextFormatter.defaultProps = {
-    color: 'orange'
 }
 
 

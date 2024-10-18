@@ -1,12 +1,13 @@
 import { useState } from 'react'
-import './components/UppercaseTextColored'
 import './App.css'
-import ColoredUppercaseText from './components/UppercaseTextColored'
+import ColoredUppercaseText from './components/TextComponents/UppercaseTextColored'
+import  Button  from './components/button/button'
 
 function App() {
   return (
     <>
-      <ColoredUppercaseText />
+      <ColoredUppercaseText color="#FFA500" />
+      <Button label="Baixar CV" click="Click Here!"/>
     </>
   )
 }
