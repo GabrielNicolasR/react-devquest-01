@@ -1,4 +1,4 @@
-import '../TextComponents/UppercaseText.css'
+import '../TextComponents/index.css'
 
 const TextFormatter = (textColor) => {
     return (

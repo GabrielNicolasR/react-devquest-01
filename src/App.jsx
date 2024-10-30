@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import ColoredUppercaseText from './components/TextComponents/UppercaseTextColored'
-import  Button  from './components/button/button'
+import ColoredUppercaseText from './components/TextComponents/index'
+import  Button  from './components/AlertButton/index'
 
 function App() {
   return (
