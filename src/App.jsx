@@ -6,7 +6,7 @@ import  Button  from './components/AlertButton/index'
 function App() {
   return (
     <>
-      <ColoredUppercaseText color="#FFA500" />
+      <ColoredUppercaseText text = 'This is a colorful text'  color="#FFA500" />
       <Button label="Baixar CV" click="Click Here!"/>
     </>
   )

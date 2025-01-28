@@ -1,13 +1,7 @@
-import '../TextComponents/index.css'
-
-const TextFormatter = (textColor) => {
+const TextFormatter = ({ color = 'orange' , text = 'standard text' }) => {
     return (
         <div>
-            <p
-                className="uppercase"
-                style={textColor}>
-                This is a colorful text
-            </p>
+            <p style={{color}}>{text.toUpperCase()}</p>
         </div>
     )
 }
